@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="device-mockups/device-mockups.min.css" />
 
   <!-- Custom styles for this template -->
-  <link href="css/new-age.min.css" rel="stylesheet" />
+  <link href="css/index.min.css" rel="stylesheet" />
 </head>
 
 <body id="page-top">
@@ -32,11 +32,10 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <img src="img/icon.png" alt="logoletra" width="20%">
+        <img src="img/icon.png" alt="logoletra">
       </a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -50,6 +49,10 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contáctenos</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger text-light" style="font-weight: 600;" href="medico.html">MedicalMap
+              para médicos</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -61,9 +64,9 @@
         <div class="col-lg-7 my-auto">
           <div class="header-content mx-auto">
             <h1 class="mb-5">
-              ¿Quíeres ordenar tu agenda de citas y
-              llevar un mejor control de toda tu información desde cualquier dispositivo? MedicalMap
-              tiene todo eso!
+              ¿Tienes poco tiempo?<br> ¿Buscas un médico cercano?<br>¿Algún tipo de médico en específico?
+              <br>
+              MedicalMap es lo que estás buscando!
             </h1>
           </div>
         </div>
@@ -114,9 +117,12 @@
             ¿Quiénes somos?
           </h2>
           <p style="color: white;">
-            Somos un grupo de emprendedores con la finalidad de centralizar, organizar y portenciar el sistema médico
-            privado de El Salvador
+            Somos emprendedores salvadoreños apasionados por el desarrollo de software para el sector médico,
+            adaptandonos a las
+            necesidades de nuestros clientes con innovación y determinación para ofrecer el mejor servicio
           </p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/JxzRF5d19dg" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
       </div>
@@ -128,26 +134,11 @@
       <div class="section-heading text-center">
         <h2>¿Qué ofrecemos?</h2>
         <p class="text-muted">
-          Estamos trabajando en una aplicación la cúal tendrá las siguientes opciones:
+          Estamos trabajando en una aplicación la cúal tendrá las siguientes caracteristicas:
         </p>
         <hr />
       </div>
       <div class="row">
-        <div class="col-lg-12 my-auto">
-          <div class="device-container">
-            <div class="device-mockup pixel portrait black">
-              <div class="device">
-                <div class="screen">
-                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                  <img src="img/calendar.jpg" class="img-fluid" alt="" />
-                </div>
-                <div class="button">
-                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div class="col-lg-12 my-auto">
           <div class="container-fluid">
             <div class="row">
@@ -156,16 +147,16 @@
                   <i class="icon-event text-primary"></i>
                   <h3>Agenda</h3>
                   <p class="text-muted">
-                    Acceso a su agenda de citas en cualquier momento
+                    Podrás agendar citas sin necesidad de llamadas
                   </p>
                 </div>
               </div>
               <div class="col-sm-4 col-lg-4">
                 <div class="feature-item">
                   <i class="icon-docs text-primary"></i>
-                  <h3>Citas</h3>
+                  <h3>Historial Médico</h3>
                   <p class="text-muted">
-                    Podrá agregar observaciones, ver expediente del paciente al cual se le realiza la consulta
+                    Podrás ver tu historial médico en cualquier momento
                   </p>
                 </div>
               </div>
@@ -174,27 +165,36 @@
                   <i class="icon-list text-primary"></i>
                   <h3>Recetas</h3>
                   <p class="text-muted">
-                    Entregue sus recetas digitalmente, el paciente podrá tener acceso a ellas en todo momento
+                    Tus recetas ya no estarán en papel, ahora las cargarás en cualquier lugar
                   </p>
                 </div>
               </div>
             </div>
             <div class="row">
-              <div class="col-sm-6 col-lg-6">
+              <div class="col-sm-4 col-lg-4">
                 <div class="feature-item">
-                  <i class="icon-chart text-primary"></i>
-                  <h3>Estadísticas</h3>
+                  <i class="icon-map text-primary"></i>
+                  <h3>Médicos</h3>
                   <p class="text-muted">
-                    Se le mostrarán datos estadísticos relevantes para sus análisis personales
+                    Encuentra médicos cercanos que se adapten a lo que estás buscando
                   </p>
                 </div>
               </div>
-              <div class="col-sm-6 col-lg-6">
+              <div class="col-sm-4 col-lg-4">
                 <div class="feature-item">
                   <i class="icon-credit-card text-primary"></i>
                   <h3>Pagos en línea</h3>
                   <p class="text-muted">
-                    Podrá recibir pagos en línea por sus servicios
+                    ¿No tienes efectivo? Podrás pagar en línea tus citas
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-4 col-lg-4">
+                <div class="feature-item">
+                  <i class="icon-event text-primary"></i>
+                  <h3>Cita Importante</h3>
+                  <p class="text-muted">
+                    ¿Olvidaste tu cita? Tranquilo, nosotros te avisamos con anticipación para que no la pierdas
                   </p>
                 </div>
               </div>
@@ -209,10 +209,9 @@
     <div class="cta-content">
       <div class="container">
         <h2>¿Te ha interesado?<br /></h2>
-        <p class="text-light">Ingresa tus datos y al finalizar el producto nos contactaremos para ofrecerte una
-          promoción por formar parte
-          de nuestra visión.</p>
-        <a href="https://forms.gle/6wfqLNe8bpivdNmv8" class="btn btn-outline btn-xl js-scroll-trigger">Registrate!</a>
+        <p class="text-light">Ingresa tus datos y nosotros nos contactaremos contigo para que seas de los primeros en
+          usar la aplicación.</p>
+        <a href="https://forms.gle/NwLXzMKbpveCS5Ry8" class="btn btn-outline btn-xl js-scroll-trigger">Registrate!</a>
       </div>
     </div>
     <div class="overlay"></div>
